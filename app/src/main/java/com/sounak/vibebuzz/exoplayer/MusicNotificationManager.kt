@@ -1,7 +1,7 @@
 package com.sounak.vibebuzz.exoplayer
 
 import android.app.PendingIntent
-import android.content.ComponentCallbacks
+
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
