@@ -10,7 +10,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.sounak.vibebuzz"
+        applicationId "com.sounak.vibefizz"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
