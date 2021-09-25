@@ -19,6 +19,7 @@ import com.sounak.vibebuzz.exoplayer.callbacks.MusicPlaybackPreparer
 import com.sounak.vibebuzz.exoplayer.callbacks.MusicPlayerEventListner
 import com.sounak.vibebuzz.exoplayer.callbacks.MusicPlayerNotificationListner
 import com.sounak.vibebuzz.other.Constants.MEDIA_ROOT_ID
+import com.sounak.vibebuzz.other.Constants.NETWORK_ERROR
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 
@@ -166,6 +167,7 @@ class MusicService : MediaBrowserServiceCompat() {
 
                             }
                         }else{
+                                 mediaSession.sendSessionEvent(NETWORK_ERROR,null)
                                  result.sendResult(null)
                         }
 
