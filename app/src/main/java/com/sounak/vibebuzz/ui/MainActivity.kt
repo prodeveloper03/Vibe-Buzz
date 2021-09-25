@@ -1,9 +1,9 @@
-package com.sounak.vibebuzz
+package com.sounak.vibebuzz.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
+import com.sounak.vibebuzz.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 @AndroidEntryPoint
